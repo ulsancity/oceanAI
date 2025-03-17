@@ -28,3 +28,15 @@ print(5%2)
 print(2**(1/2))
 print(3**(1/2))
 
+import matplotlib.pyplot as plt
+
+x = ['A', 'B', 'C', 'D']
+y = [5, 7, 3, 8]
+
+plt.bar(x, y, color='green')
+
+plt.title("바 그래프")
+plt.xlabel("카테고리")
+plt.ylabel("값")
+
+plt.show()
